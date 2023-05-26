@@ -1,0 +1,20 @@
+import React from "react";
+
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
+import notes from "./Notes";
+
+const App = () => {
+  return (
+    <div>
+      <Header />
+      {notes.map((note) => (
+        <Note key={note.key} Title={note.title} Content={note.content} />
+      ))}
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
