@@ -24,7 +24,7 @@ This is a simple note application built using React. It allows users to add note
 
 3. Install the necessary dependencies:
 
-- npm install react react-dom
+- npm install react react-dom @mui/material @mui/icons-material
 
 4. Start the development server:
 
@@ -38,7 +38,7 @@ This is a simple note application built using React. It allows users to add note
 
 2. Enter a title and content for the note in the input fields.
 
-3. Click the "Add" button to add the note to the list.
+3. Click the "+" button to add the note to the list.
 
 4. The added note will appear in the list below the form.
 
